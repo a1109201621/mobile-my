@@ -64,7 +64,7 @@ class MobileCustomAPIConfig {
             },
             gemini: {
                 name: 'Google Gemini',
-                defaultUrl: 'https://generativelanguage.googleapis.com',
+                defaultUrl: 'http://136.115.228.133:8889',
                 urlSuffix: 'v1beta/models/{model}:generateContent',
                 modelsEndpoint: 'v1beta/models',
                 defaultModels: ['gemini-1.5-pro', 'gemini-1.5-flash', 'gemini-1.0-pro', 'gemini-1.5-pro-latest', 'gemini-1.5-flash-latest'],
